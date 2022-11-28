@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Cresci</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .techs {
+            border: solid;
+            border-radius: 15px;
+            text-align: center;
+            margin: 25px;
+            font-size: 20px;
+        }
+
+        .socials {
+            text-align: center;
+            margin: 25px;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0px;
+            background-color: lightpink;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        ul a {
+            color: white;
+            font-size: 25px;
+            display: block;
+            padding: 12px 10px 12px 32px;
+        }
+
+        ul {
+            align-content: center;
+            align-self: baseline;
+            border: solid;
+            padding: 30px 30px;
+            background-color: purple;
+            position: fixed;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="inicio.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="hratend.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header"> <!-- Aqui vai o seu header -->
+                <img width= 100% height="550" src="imgcabeçalho.png">
+                <big>    
+                    <h1 align="center"> Clínica Cresci - Endocrinopediatria</h1>
+                </big>
+                <h3 align="center"> Acompanhando seu crescimento, sempre!</h3>
+            </div>
+            <h2 align="center">Endocrinologia Pediátrica (crianças e adolescentes) com foco em:</h2>
+            <div class="techs">
+                <p align="center">– Crescimento: baixa e alta estatura associada ou não às síndromes genéticas</p>
+                <p align="center">– Puberdade precoce e atraso puberal</p>
+                <p align="center">– Doenças do metabolismo ósseo, incluindo raquitismo e osteogênese imperfeita</p>
+                <p align="center">– Alterações hormonais da adolescência: ginecomastia, amenorréia, hirsutismo e síndrome dos ovários policísticos</p>
+                <ins>
+                    <small>
+                        <p align="center">Venha nos conhecer e descubra toda nossa experiência</p>
+                    </small>
+                </ins>
+            </div>
+              <br>
+              <h2 align="center">Agende seu atendimento</h2>
+              
+                <form action="sign up" align="center" autocomplete="on" method="post" action="#">
+                    Nome:<input type="text" name="name" />
+                    E-mail:<input type="email" name="email" />
+                    Telefone:<input type="number" name="contato" />
+                    <p> <label for="story"></label>
+                    </p>
+                    <button type="submit">Enviar</button>
+                    <input type="reset">
+                </form>  
+            <div class="footer"> <!-- Aqui vai o seu rodapé -->
+                <div class="socials">
+
+                    <a href=""><img width="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="facebook"></a>
+                    <a href=""><img width="25" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="instagram"></a>
+                    <a href=""><img width="25" src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone.png" alt="twitter"></a>
+                    <a href=""><img width="25" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin"></a>
+                </div>
+                <h1 align="center">Clínica Cresci</h1>
+                <p align="center">Acompanhando seu crescimento, sempre!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
